@@ -4,6 +4,7 @@
 ##Apache shiro 简介
 用于<strong>身份验证</strong>和<strong>授权</strong>的框架。
 摘自：[IBM开发者社区](http://www.ibm.com/developerworks/cn/web/wa-apacheshiro/ "Apache Shiro 简介")
+官方文档翻译：[中文文档](http://greycode.github.io/shiro/doc/introduction.html "Apache Shiro 中文文档")
 ##了解 shiro
 Shiro 的 Session 对象允许无需 HttpSession 即可使用一个用户会话。<br>
 通过使用一个通用的 Session 对象，即便该代码没有在一个 Web 应用程序中运行，仍可以使用相同的代码。<br>
