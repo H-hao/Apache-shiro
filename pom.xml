@@ -14,22 +14,9 @@
 	</properties>
 	<dependencies>
 		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.12</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
 			<groupId>org.apache.shiro</groupId>
 			<artifactId>shiro-core</artifactId>
 			<version>${shiro-version}</version>
-			<!-- <exclusions> -->
-			<!-- <exclusion> -->
-			<!-- 没有效果？ -->
-			<!-- <artifactId>org.slf4j</artifactId> -->
-			<!-- <groupId>slf4j-api</groupId> -->
-			<!-- </exclusion> -->
-			<!-- </exclusions> -->
 		</dependency>
 		<dependency>
 			<groupId>org.apache.shiro</groupId>
@@ -51,6 +38,22 @@
 		<!-- <artifactId>shiro-spring</artifactId> -->
 		<!-- <version>${shiro-version}</version> -->
 		<!-- </dependency> -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.6.1</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.1.1</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>apache-shiro</finalName>
